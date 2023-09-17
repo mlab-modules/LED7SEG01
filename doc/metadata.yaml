@@ -1,4 +1,4 @@
-description: null
+description: "LED 7-segmentov\xFD display ovl\xE1dan\xFD p\u0159es I2C"
 github_branch: LED7SEG01A
 github_repo: LED7SEG01
 github_url: https://github.com/mlab-modules/LED7SEG01

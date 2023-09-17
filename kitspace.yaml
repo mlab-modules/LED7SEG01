@@ -5,4 +5,4 @@ eda:
   type: kicad
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/LED7SEG01
-summary: null
+summary: "LED 7-segmentov\xFD display ovl\xE1dan\xFD p\u0159es I2C"
