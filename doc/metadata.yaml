@@ -3,6 +3,7 @@ github_branch: LED7SEG01A
 github_repo: LED7SEG01
 github_url: https://github.com/mlab-modules/LED7SEG01
 homepage: false
+image_title: doc/gen/img/LED7SEG01-top.png
 images:
 - doc/img/LED7SEG01A_small.jpg
 - doc/img/LED7SEG01A_QRcode.png
