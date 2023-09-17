@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/LED7SEG01.kicad_sch</source>
+    <date>Sun Sep 17 10:17:55 2023</date>
+    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LED7SEG01A</title>
+        <company/>
+        <rev/>
+        <date>2023-09-17</date>
+        <source>LED7SEG01.kicad_sch</source>
+        <comment number="1" value="Seven segment LED display\nsingle digit"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AFF1">
+      <value>FYS-40011DS-11</value>
+      <footprint>Mlab_DISPLAY:FYS-40011DS-11</footprint>
+      <libsource lib="LED7SEG01-rescue" part="FYS-40011DS-11" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057446b8b</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057443486</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47uF</value>
+      <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057443512</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>47uF</value>
+      <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057481dbd</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005744342b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BZV55C-5,6V</value>
+      <footprint>Mlab_D:MiniMELF_Standard</footprint>
+      <libsource lib="LED7SEG01-rescue" part="D_ZENER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057462d05</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>M4</value>
+      <footprint>Mlab_D:Diode-SMA_Standard</footprint>
+      <libsource lib="LED7SEG01-rescue" part="DIODE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574814ff</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>L-813ID</value>
+      <footprint>Mlab_D:LED-10MM</footprint>
+      <libsource lib="LED7SEG01-rescue" part="LED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574d2191</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>L-813ID</value>
+      <footprint>Mlab_D:LED-10MM</footprint>
+      <libsource lib="LED7SEG01-rescue" part="LED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574d1948</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>JUMP_4X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_4X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005747fb5e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Mechanical:0</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000575598d5</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Mechanical:0</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005755a991</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005744fa57</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005744e41d</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005744ee65</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005744fae9</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057454f84</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005746110e</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574613e6</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574614aa</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057461571</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005746163f</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005746170c</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574617dc</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057461cbf</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057463ac3</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574646c3</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574647b7</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574655a5</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574648a6</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057465917</tstamps>
+    </comp>
+    <comp ref="J25">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057464b0e</tstamps>
+    </comp>
+    <comp ref="J26">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057465a1a</tstamps>
+    </comp>
+    <comp ref="J27">
+      <value>JUMP_4X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_4X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057467a02</tstamps>
+    </comp>
+    <comp ref="J28">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057469dd4</tstamps>
+    </comp>
+    <comp ref="J29">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057469dc8</tstamps>
+    </comp>
+    <comp ref="J30">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057469dce</tstamps>
+    </comp>
+    <comp ref="J31">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057469dda</tstamps>
+    </comp>
+    <comp ref="J36">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574725a7</tstamps>
+    </comp>
+    <comp ref="J37">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057475ddc</tstamps>
+    </comp>
+    <comp ref="J38">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005747650b</tstamps>
+    </comp>
+    <comp ref="J39">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057476625</tstamps>
+    </comp>
+    <comp ref="J40">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005747673e</tstamps>
+    </comp>
+    <comp ref="J41">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057476856</tstamps>
+    </comp>
+    <comp ref="J42">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057476975</tstamps>
+    </comp>
+    <comp ref="J43">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057476a93</tstamps>
+    </comp>
+    <comp ref="J44">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="LED7SEG01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057476bb4</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LED7SEG01-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057469d0a</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LED7SEG01-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057469d26</tstamps>
+    </comp>
+    <comp ref="M5">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LED7SEG01-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057468425</tstamps>
+    </comp>
+    <comp ref="M6">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LED7SEG01-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005746946a</tstamps>
+    </comp>
+    <comp ref="M7">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LED7SEG01-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005746951e</tstamps>
+    </comp>
+    <comp ref="M8">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LED7SEG01-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005746952c</tstamps>
+    </comp>
+    <comp ref="M9">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LED7SEG01-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005746a29c</tstamps>
+    </comp>
+    <comp ref="M10">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LED7SEG01-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005746a2aa</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005745a4bd</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005745add9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005745aea7</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057443345</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574433fb</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574433db</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057517019</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057518101</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057518217</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057518ba1</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057518342</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057519821</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057518a7a</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057519952</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>150R</value>
+      <footprint>Mlab_R:SMD-1206</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005745a88e</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>150R</value>
+      <footprint>Mlab_R:SMD-1206</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005745f299</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>150R</value>
+      <footprint>Mlab_R:SMD-1206</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005745f55e</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>150R</value>
+      <footprint>Mlab_R:SMD-1206</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005745fa69</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>150R</value>
+      <footprint>Mlab_R:SMD-1206</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005745f655</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>150R</value>
+      <footprint>Mlab_R:SMD-1206</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005745fa80</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>300R</value>
+      <footprint>Mlab_R:SMD-1206</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005745f823</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>150R</value>
+      <footprint>Mlab_R:SMD-1206</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057463b7e</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>0R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574c5728</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>0R</value>
+      <footprint>Mlab_R:SMD-1206</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574cadf3</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000057506155</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005750636e</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005750647d</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005750658f</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000575054a4</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000575066a0</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000575055ae</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LED7SEG01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005750d26e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PCA9635PW</value>
+      <footprint>Mlab_IO:TSSOP28</footprint>
+      <libsource lib="LED7SEG01-rescue" part="PCA9635PW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LED7SEG01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000574441b6</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="LED7SEG01-rescue" part="C">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="CONN1_1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN1_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="CP">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="D_ZENER">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="FYS-40011DS-11">
+      <fields>
+        <field name="Reference">AFF</field>
+        <field name="Value">FYS-40011DS-11</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C.A." type="input"/>
+        <pin num="2" name="e" type="input"/>
+        <pin num="3" name="d" type="input"/>
+        <pin num="4" name="c" type="input"/>
+        <pin num="5" name="DP" type="input"/>
+        <pin num="6" name="b" type="input"/>
+        <pin num="7" name="a" type="input"/>
+        <pin num="8" name="C.A." type="input"/>
+        <pin num="9" name="f" type="input"/>
+        <pin num="10" name="g" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="HOLE">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">HOLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="JUMP_2x1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_2x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="JUMP_4X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_4X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="4" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="5" type="passive"/>
+        <pin num="7" name="8" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="PCA9635PW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9635PW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="unspecified"/>
+        <pin num="2" name="A1" type="unspecified"/>
+        <pin num="3" name="A2" type="unspecified"/>
+        <pin num="4" name="A3" type="unspecified"/>
+        <pin num="5" name="A4" type="unspecified"/>
+        <pin num="6" name="LED0" type="unspecified"/>
+        <pin num="7" name="LED1" type="unspecified"/>
+        <pin num="8" name="LED2" type="unspecified"/>
+        <pin num="9" name="LED3" type="unspecified"/>
+        <pin num="10" name="LED4" type="unspecified"/>
+        <pin num="11" name="LED5" type="unspecified"/>
+        <pin num="12" name="LED6" type="unspecified"/>
+        <pin num="13" name="LED7" type="unspecified"/>
+        <pin num="14" name="GND" type="unspecified"/>
+        <pin num="15" name="LED8" type="unspecified"/>
+        <pin num="16" name="LED9" type="unspecified"/>
+        <pin num="17" name="LED10" type="unspecified"/>
+        <pin num="18" name="LED11" type="unspecified"/>
+        <pin num="19" name="LED12" type="unspecified"/>
+        <pin num="20" name="LED13" type="unspecified"/>
+        <pin num="21" name="LED14" type="unspecified"/>
+        <pin num="22" name="LED15" type="unspecified"/>
+        <pin num="23" name="#OE" type="unspecified"/>
+        <pin num="24" name="A5" type="unspecified"/>
+        <pin num="25" name="A6" type="unspecified"/>
+        <pin num="26" name="SCL" type="unspecified"/>
+        <pin num="27" name="SDA" type="unspecified"/>
+        <pin num="28" name="VDD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED7SEG01-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="LED7SEG01-rescue">
+      <uri>/github/workspace/hw/sch_pcb/LED7SEG01-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="AFF1" pin="1" pinfunction="C.A." pintype="input"/>
+      <node ref="AFF1" pin="8" pinfunction="C.A." pintype="input"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="5" pintype="passive"/>
+      <node ref="J27" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J27" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J27" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J27" pin="6" pinfunction="5" pintype="passive"/>
+      <node ref="J37" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J38" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J39" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J40" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J41" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J42" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J43" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J44" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/#OE">
+      <node ref="J36" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J36" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="#OE" pintype="unspecified"/>
+    </net>
+    <net code="3" name="/A">
+      <node ref="AFF1" pin="7" pinfunction="a" pintype="input"/>
+      <node ref="J21" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/A0">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A0" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/A1">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="A1" pintype="unspecified"/>
+    </net>
+    <net code="6" name="/A2">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="A2" pintype="unspecified"/>
+    </net>
+    <net code="7" name="/A3">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="A3" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/A4">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="A4" pintype="unspecified"/>
+    </net>
+    <net code="9" name="/B">
+      <node ref="AFF1" pin="6" pinfunction="b" pintype="input"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J23" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/C">
+      <node ref="AFF1" pin="4" pinfunction="c" pintype="input"/>
+      <node ref="J22" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/D">
+      <node ref="AFF1" pin="3" pinfunction="d" pintype="input"/>
+      <node ref="J24" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/DP">
+      <node ref="AFF1" pin="5" pinfunction="DP" pintype="input"/>
+      <node ref="J25" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/E">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J26" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/F">
+      <node ref="AFF1" pin="9" pinfunction="f" pintype="input"/>
+      <node ref="J20" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/G">
+      <node ref="AFF1" pin="10" pinfunction="g" pintype="input"/>
+      <node ref="J19" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/LED00">
+      <node ref="J11" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="LED0" pintype="unspecified"/>
+    </net>
+    <net code="17" name="/LED01">
+      <node ref="J12" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="LED1" pintype="unspecified"/>
+    </net>
+    <net code="18" name="/LED02">
+      <node ref="J13" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="LED2" pintype="unspecified"/>
+    </net>
+    <net code="19" name="/LED03">
+      <node ref="J14" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="LED3" pintype="unspecified"/>
+    </net>
+    <net code="20" name="/LED04">
+      <node ref="J15" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="LED4" pintype="unspecified"/>
+    </net>
+    <net code="21" name="/LED05">
+      <node ref="J16" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="LED5" pintype="unspecified"/>
+    </net>
+    <net code="22" name="/LED06">
+      <node ref="J17" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="LED6" pintype="unspecified"/>
+    </net>
+    <net code="23" name="/LED07">
+      <node ref="J18" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="LED7" pintype="unspecified"/>
+    </net>
+    <net code="24" name="/SCL">
+      <node ref="J30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J30" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="SCL" pintype="unspecified"/>
+    </net>
+    <net code="25" name="/SDA">
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="SDA" pintype="unspecified"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="8" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J27" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="J27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J27" pin="7" pinfunction="8" pintype="passive"/>
+      <node ref="J27" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J31" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="M1" pin="1" pintype="input"/>
+      <node ref="M10" pin="1" pintype="input"/>
+      <node ref="M3" pin="1" pintype="input"/>
+      <node ref="M5" pin="1" pintype="input"/>
+      <node ref="M6" pin="1" pintype="input"/>
+      <node ref="M7" pin="1" pintype="input"/>
+      <node ref="M8" pin="1" pintype="input"/>
+      <node ref="M9" pin="1" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U1" pin="24" pinfunction="A5" pintype="unspecified"/>
+      <node ref="U1" pin="25" pinfunction="A6" pintype="unspecified"/>
+    </net>
+    <net code="27" name="Net-(AFF1-e)">
+      <node ref="AFF1" pin="2" pinfunction="e" pintype="input"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(J29-1-Pad2)">
+      <node ref="J29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J29" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J28" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="VDD" pintype="unspecified"/>
+    </net>
+    <net code="30" name="unconnected-(U1-LED8-Pad15)">
+      <node ref="U1" pin="15" pinfunction="LED8" pintype="unspecified"/>
+    </net>
+    <net code="31" name="unconnected-(U1-LED9-Pad16)">
+      <node ref="U1" pin="16" pinfunction="LED9" pintype="unspecified"/>
+    </net>
+    <net code="32" name="unconnected-(U1-LED10-Pad17)">
+      <node ref="U1" pin="17" pinfunction="LED10" pintype="unspecified"/>
+    </net>
+    <net code="33" name="unconnected-(U1-LED11-Pad18)">
+      <node ref="U1" pin="18" pinfunction="LED11" pintype="unspecified"/>
+    </net>
+    <net code="34" name="unconnected-(U1-LED12-Pad19)">
+      <node ref="U1" pin="19" pinfunction="LED12" pintype="unspecified"/>
+    </net>
+    <net code="35" name="unconnected-(U1-LED13-Pad20)">
+      <node ref="U1" pin="20" pinfunction="LED13" pintype="unspecified"/>
+    </net>
+    <net code="36" name="unconnected-(U1-LED14-Pad21)">
+      <node ref="U1" pin="21" pinfunction="LED14" pintype="unspecified"/>
+    </net>
+    <net code="37" name="unconnected-(U1-LED15-Pad22)">
+      <node ref="U1" pin="22" pinfunction="LED15" pintype="unspecified"/>
+    </net>
+  </nets>
+</export>
