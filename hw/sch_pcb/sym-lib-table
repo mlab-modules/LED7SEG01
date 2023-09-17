@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "LED7SEG01-rescue")(type "Legacy")(uri "${KIPRJMOD}/LED7SEG01-rescue.lib")(options "")(descr ""))
+)
